@@ -1,0 +1,16 @@
+.title, td {
+  text-align: center;
+}
+
+.title table {
+  margin: 0 auto;
+}
+
+.title {
+  margin: 50px 0;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 24px;
+}
