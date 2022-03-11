@@ -1,18 +1,23 @@
-.title, td {
-  text-align: center;
-}
-
-.title table {
-  margin: 0 auto;
-}
-
 .title {
-  margin: 50px 0;
+  text-align: center;
 }
 
 body {
   font-family: 'Ubuntu', sans-serif;
-  font-size: 24px;
+  font-size: 1.8em;
+}
+
+body a {
+  text-decoration: none;
+}
+
+body a:hover {
+  text-decoration: underline;
+}
+
+.bio {
+  position: sticky;
+  top: 0;
 }
 
 .skills_wrap {
@@ -21,11 +26,36 @@ body {
 }
 
 .skills {
-  flex-basis: 16%;
+  flex-basis: 25%;
   text-align: center;
   list-style: none;
   flex-grow: 1;
   border-bottom: 1px solid #E1E1E1;
+}
+
+.employer {
+  text-decoration: underline;
+  margin-bottom: 0;
+}
+
+.position,
+.education,
+.language {
+  list-style: none;
+}
+
+@media (max-width: 850px) {
+  .bio {
+    position: static;
+  }
+
+  .columns {
+    width: 100% !important;
+  }
+
+  .photo {
+    max-height: 391.688px;
+  }
 }
 
 @media (max-width: 480px) {

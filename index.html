@@ -2,6 +2,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Федяев Владислав</title>
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
@@ -14,14 +15,18 @@
 <body>
 <div class="container">
   <div class="title">
-    <h1>Федяев Владислав</h1>
-    <h2>Ruby/Rails разработчик</h2>
+    <h1>Владислав Федяев</h1>
+    <h2>Ruby on Rails разработчик</h2>
   </div>
+  <div class="four columns bio">
     <div class="row">
-    <div class="six columns">
-      <img src="images/IMG_32681.jpg" alt="Моё фото" class="u-max-full-width"/>
+      <div>
+        <img src="images/IMG_32681.jpg" alt="Моё фото" class="u-max-full-width photo"/>
+      </div>
     </div>
-    <div class="six columns">
+    <div>
+      <div>Владислав Федяев</div>
+      <small>Ruby on Rails разработчик</small>
       <h3>Информация:</h3>
       <ul>
         <li>г. Орёл</li>
@@ -29,60 +34,102 @@
       </ul>
       <h3>Контакты:</h3>
       <ul>
+        <li><a href="tel:+79208182948">+7 920 818 29 48</a></li>
         <li><a href="mailto:vladislav.fdv@mail.ru">vladislav.fdv@mail.ru</a></li>
         <li><a href="https://github.com/8uben">github.com/8uben</a></li>
+        <li><a href="https://t.me/bu6en">t.me/bu6en</a></li>
       </ul>
     </div>
   </div>
-  <div class="title">
-    <h3>Навыки:</h3>
-    <ul class="skills_wrap">
-      <li class="skills">Ruby</li>
-      <li class="skills">Rails</li>
-      <li class="skills">Rspec</li>
-      <li class="skills">SQL</li>
-      <li class="skills">JS</li>
-      <li class="skills">Git</li>
-      <li class="skills">Linux</li>
-      <li class="skills">HTML</li>
-      <li class="skills">CSS</li>
-      <li class="skills">XML</li>
-      <li class="skills">JSON</li>
-      <li class="skills">CSV</li>
-    </ul>
-  </div>
-  <div class="title">
-    <h3>Опыт работы:</h3>
-    <div class="row">
-      <div class="six columns">
-        <p>ноябрь 2019 - по настоящее время</p>
+
+  <div class="seven columns">
+    <div>
+      <h3 class="title">Проекты:</h3>
+      <h4>BBQ [<a href="https://vladfdv.ru">app</a> | <a href="https://github.com/8uben/bbq">repo</a>]</h4>
+      <p>
+        Приложение для организации событий.
+        Создавайте и отмечайте на карте места их проведения.
+        Загружайте фотографии, оставляйте комментарии и подписывайтесь,
+        чтобы получить email уведомления о действиях пользователей на странице события.
+      </p>
+      <h4>Askme [<a href="https://megaask-gp.herokuapp.com/">app</a> | <a href="https://github.com/8uben/askme">repo</a>]</h4>
+      <p>
+        Cеть вопросов и ответов. Клон <a href="https://ask.fm">ask.fm</a>.
+        Задавайте вопросы от своего имени или анонимно другим пользователям.
+      </p>
+      <div><small><a href="https://github.com/8uben?tab=repositories">Смотреть еще...</a></small></div>
+    </div>
+    <div>
+      <h3 class="title">Навыки:</h3>
+      <ul class="skills_wrap">
+        <li class="skills">Ruby</li>
+        <li class="skills">Rails</li>
+        <li class="skills">Rspec</li>
+        <li class="skills">SQL</li>
+
+        <li class="skills">Git</li>
+        <li class="skills">HTML</li>
+        <li class="skills">CSS</li>
+        <li class="skills">JS</li>
+
+        <li class="skills">XML</li>
+        <li class="skills">JSON</li>
+        <li class="skills">CSV</li>
+        <li class="skills">Redis</li>
+
+        <li class="skills">Linux</li>
+        <li class="skills">VPS</li>
+        <li class="skills">Capistrano</li>
+        <li class="skills">Heroku</li>
+      </ul>
+    </div>
+    <div>
+      <h3 class="title">Опыт работы:</h3>
+      <div>
+        <h4 class="employer">ООО «Думалогия»</h4>
+        <em><small>(ноябрь 2019 - по настоящее время)</small></em>
         <ul>
-          <li class="companies">ООО «Думалогия»</li>
-          <li>Технический специалист (вебмастер)</li>
+          <li class="position">Технический специалист (вебмастер)</li>
+          <ul>
+            <li>Работа с API CRM и подключение интеграций</li>
+            <li>Верстка и поддержка сайта</li>
+          </ul>
         </ul>
       </div>
-      <div class="six columns">
-        <p>декабрь 2018 - ноябрь 2019</p>
+      <div>
+        <h4 class="employer">ООО «Думалогия»</h4>
+        <em><small>(декабрь 2018 - ноябрь 2019)</small></em>
         <ul>
-          <li class="companies">ООО «Думалогия»</li>
-          <li>Помощник руководителя</li>
+          <li class="position">Помощник руководителя</li>
+          <ul>
+            <li>SEO продвижение</li>
+            <li>Интернет-маркетинг</li>
+          </ul>
         </ul>
       </div>
     </div>
-  </div>
-  <div class="title">
-    <h3>Образование:</h3>
-      <ul>
-        <li>«Хороший программист» - «Rails Heliodor 2021»</li>
-        <li>Орловский реставрационно-строительный техникум (Технолог сварочного производства)</li>
-      </ul>
-  </div>
-  <div class="title">
-    <h3>Владение языками:</h3>
-      <ul>
-        <li>Английский - Elementary</li>
-      </ul>
-  </div>
+    <div>
+      <h3 class="title">Образование:</h3>
+        <ul class="education">
+          <li>Курс по Ruby on Rails
+          <ul>
+            <li>«Хороший программист» - «Rails Heliodor 2021»</li>
+          </ul>
+          <li>Орловский реставрационно-строительный техникум</li>
+          <ul>
+            <li>Технолог сварочного производства</li>
+          </ul>
+        </ul>
+    </div>
+    <div>
+      <h3 class="title">Владение языками:</h3>
+        <ul class="language">
+          <li>Английский</li>
+          <ul>
+            <li>Уровень — Elementary</li>
+          </ul>
+        </ul>
+    </div>
 </div>
 </body>
 </html>
